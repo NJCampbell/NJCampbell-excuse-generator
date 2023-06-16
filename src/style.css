@@ -1,1 +1,35 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+body {
+  background: rgb(206, 184, 201);
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: rgb(85, 207, 85);
+  transition-duration: 0.4s;
+}
+
+.btn {
+  background-color: #0baddf;
+  border-radius: 2px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  margin-top: 30px;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.container {
+  padding-top: 10%;
+  font-size: large;
+}
+
+#theExcuse {
+  padding-top: 5%;
+  font-size: 3em;
+}
+.fixed-bottom p-4 {
+  margin-top: 600px;
+}
